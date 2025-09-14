@@ -49,6 +49,8 @@ import {
   Video,
   MessageCircle
 } from 'lucide-react';
+import p2 from '../p2.jpg';
+
 
 // Mock data
 const mockAlerts = [
@@ -1534,8 +1536,12 @@ Emergency response unit ${selectedAlert.assignedUnit} dispatched immediately.`}
             <div className="flex items-center justify-between">
               {/* Left - Logo */}
               <div className="flex items-center space-x-3">
-                <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
-                  <Shield className="w-6 h-6 text-white" />
+                <div className="w-10 h-10  ">
+                  <img 
+            src={p2} 
+            alt="WebPortal Logo" 
+            className="h-10 w-10" 
+          />
                 </div>
                 <div>
                   <h1 className="text-lg font-semibold text-slate-900">Police Command Center</h1>

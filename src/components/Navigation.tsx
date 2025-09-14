@@ -2,6 +2,9 @@ import { Button } from './ui/button';
 import { Shield, Menu, LogIn, User } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
+import p2 from "../p2.jpg";
+
+
 interface NavigationProps {
   onSignInClick?: () => void;
 }
@@ -25,8 +28,8 @@ export function Navigation({ onSignInClick }: NavigationProps) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-2">
-            <Shield className="h-8 w-8 text-primary" />
-            <span className="text-xl font-semibold text-primary">SafeTourism AI</span>
+            <img src={p2} alt="Yatri" className="h-16 w-auto" />
+            <span className="text-xl font-semibold text-primary"> WebPortal</span>
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
