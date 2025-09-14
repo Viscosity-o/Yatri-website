@@ -42,6 +42,9 @@ import {
   Upload,
   Video
 } from 'lucide-react';
+import p2 from '../p2.jpg';
+
+
 
 // Mock data
 const mockClusters = [
@@ -1533,8 +1536,9 @@ export function TourismDashboard() {
             <div className="flex items-center justify-between">
               {/* Left - Logo */}
               <div className="flex items-center space-x-3">
-                <div className="w-10 h-10 bg-green-600 rounded-lg flex items-center justify-center">
-                  <Globe className="w-6 h-6 text-white" />
+                <div className="w-10 h-10  flex items-center justify-center">
+                 <img src={p2} alt="Globe" className="w-10 h-10 object-cover" />
+
                 </div>
                 <div>
                   <h1 className="text-lg font-semibold text-slate-900">Tourism Department</h1>
